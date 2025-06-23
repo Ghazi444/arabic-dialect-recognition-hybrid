@@ -1,0 +1,9 @@
+numpy
+scikit-learn
+matplotlib
+seaborn
+librosa
+pywavelets
+tensorflow
+datasets
+soundfile
