@@ -36,14 +36,14 @@ pip install -r requirements.txt
 
 Tested with Python ≥ 3.8.
 
-🗂 Dataset
+## 🗂 Dataset
 The experiments use the Arabic subset of Common Voice 12.0, a large, crowd-sourced multilingual speech dataset. Dialects are assigned based on speaker country metadata:
 Egyptian Arabic → Egypt
 Levantine Arabic → Jordan, Palestine, Lebanon, Syria
 Gulf Arabic → Saudi Arabia, UAE, Qatar, Kuwait
 The dataset was filtered, resampled to 16 kHz, and normalized before feature extraction. Approx. 6 hours of speech were used across the three dialect groups.
 
-🧰 Usage Workflow:
+## 🧰 Usage Workflow:
 
 1️⃣ Load and filter dataset:
 python data_scripts/load_commonvoice.py
@@ -63,9 +63,9 @@ python experiments/wavelet_rnn_train.py
 python evaluation/generate_confusion_matrices.py
 python evaluation/print_classification_report.py
 
-📄 Citation
+## 📄 Citation
 If you use this code in your academic work, please cite the associated paper or this repository.
 
-📧 Contact
+## 📧 Contact
 Developed by Ghazal Shwayat
 GitHub: https://github.com/Ghazi444
