@@ -30,8 +30,7 @@ arabic-dialect-recognition-hybrid/
 
 ## 📦 Installation Requirements
 
-Install the required Python packages using:
-```bash
+Install the required Python packages using
 pip install -r requirements.txt
 
 Tested with Python ≥ 3.8.
